@@ -46,7 +46,7 @@ Find the Elf carrying the most Calories. How many total Calories is that Elf ca
 
 <details>
   <summary>The puzzle answer was</summary>
- `72718`
+ 72718
 </details>
 
 ## --- Part Two ---
@@ -63,7 +63,7 @@ Find the top three Elves carrying the most Calories. How many Calories are thos
 
 <details>
   <summary>The puzzle answer was</summary>
- `213089`
+ 213089
 </details>
 
 If you still want to see it, you can [get your puzzle input](https://adventofcode.com/2022/day/1/input).

@@ -1,4 +1,4 @@
-import { Elf } from "../domain/entities/Elf";
+import { Elf } from "../entities/Elf";
 
 export interface ElfRepository {
   getElves(): Promise<Elf[]>;

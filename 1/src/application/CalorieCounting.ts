@@ -1,6 +1,6 @@
 import { Elf } from "../domain/entities/Elf";
-import { ElfFileRepository } from "../infrastructure/ElfFileRepository";
-import { ElfRepository } from "../infrastructure/ElfRepository";
+import { ElfFileRepository } from "../infrastructure/repositories/ElfFileRepository";
+import { ElfRepository } from "../domain/repositories/ElfRepository";
 import { ElfService } from "./services/ElfService";
 
 export class CalorieCounting {

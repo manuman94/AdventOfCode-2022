@@ -1,7 +1,7 @@
-import { Elf } from "../domain/entities/Elf";
-import { ElfRepository } from "./ElfRepository";
+import { Elf } from "../../domain/entities/Elf";
+import { CalorieItem } from "../../domain/entities/CalorieItem";
+import { ElfRepository } from "../../domain/repositories/ElfRepository";
 import { readFile as fsReadFile } from "fs/promises";
-import { CalorieItem } from "../domain/entities/CalorieItem";
 
 export class ElfFileRepository implements ElfRepository {
   private readonly INPUT_FILE_PATH = "./input/input.txt";
